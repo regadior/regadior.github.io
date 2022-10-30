@@ -1,1 +1,0 @@
-# regadior.github.io
