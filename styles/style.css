@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Playfair;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: Kalam;
+    src: url(../fonts/kalam/Kalam-Bold.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+}
+#header{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    margin-left: 50px;
+    font-size: 45px;
+    font-family: Kalam;
+}
+.logo a{
+    text-decoration: none;
+    color: azure;
+}
+.contenedor-nav{
+    display: flex;
+    font-family: Playfair;
+    font-size: 20px;
+}
+.contenedor-nav li{
+    list-style: none;
+    margin-right: 70px;
+}
+.contenedor-nav li a{
+    text-decoration: none;
+    color: azure;
+    padding: 8px;
+    border-radius: 5%;
+}
+.contenedor-nav li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36);
+}
